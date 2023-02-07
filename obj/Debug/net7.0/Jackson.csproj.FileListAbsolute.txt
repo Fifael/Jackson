@@ -1,0 +1,15 @@
+C:\Users\Rafael\Desktop\faculdade\Jackson\bin\Debug\net7.0\Jackson.exe
+C:\Users\Rafael\Desktop\faculdade\Jackson\bin\Debug\net7.0\Jackson.deps.json
+C:\Users\Rafael\Desktop\faculdade\Jackson\bin\Debug\net7.0\Jackson.runtimeconfig.json
+C:\Users\Rafael\Desktop\faculdade\Jackson\bin\Debug\net7.0\Jackson.dll
+C:\Users\Rafael\Desktop\faculdade\Jackson\bin\Debug\net7.0\Jackson.pdb
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.dll
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\refint\Jackson.dll
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.pdb
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\Jackson.genruntimeconfig.cache
+C:\Users\Rafael\Desktop\faculdade\Jackson\obj\Debug\net7.0\ref\Jackson.dll
