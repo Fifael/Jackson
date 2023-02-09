@@ -226,7 +226,7 @@ namespace Namespaceprogram
             System.Console.WriteLine("Infomre outra palavra");
             string SegundaString = (Console.ReadLine());
 
-            if (PrimeiraString == secondString)
+            if (PrimeiraString == SegundaString)
             {
                 Console.WriteLine("As strings são iguais.");
             }
@@ -234,7 +234,6 @@ namespace Namespaceprogram
             {
                 Console.WriteLine("As strings são diferentes.");
             }
-            Console.ReadLine();
         }
 
         public static void testes()
