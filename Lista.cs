@@ -30,20 +30,37 @@ namespace Namespaceprogram
                         Console.WriteLine("Obrigado");
                         break;
                     case 1:
-                        media();
-                        break;
+                        Media();
+                    break;
+
                     case 2:
-                        area();
-                        break;
+                        Area();
+                    break;
+
                     case 3:
-                        volume();
-                        break;
+                        Volume();
+                    break;
+
                     case 4:
-                        maior();
-                        break;
+                        Maior();
+                    break;
+
                     case 5:
-                        bhaskara();
-                        break;
+                        Bhaskara();
+                    break;
+
+                    case 6:
+                        VelocidadeMedia();
+                    break;
+
+                    case 7:
+                        Imposto();
+                    break;
+
+                    case 8:
+                        ImparPar();
+                    break;
+
                     default:
                         Console.WriteLine("Opção não disponível");
                         break;
@@ -52,7 +69,7 @@ namespace Namespaceprogram
         }
 
 
-        public static void media()
+        public static void Media()
         {
             System.Console.WriteLine("Qual a primeira nota");
             int nota1 = Int32.Parse(Console.ReadLine());
@@ -64,7 +81,7 @@ namespace Namespaceprogram
             System.Console.WriteLine($"Primeira nota: {nota1} \nSegunda nota: {nota2} \nTerceira nota: {nota3} \nMedia: {media}");
         }
 
-        public static void area()
+        public static void Area()
         {
             System.Console.WriteLine("Calculo de area");
             System.Console.WriteLine("Quando de altura");
@@ -75,7 +92,7 @@ namespace Namespaceprogram
             System.Console.WriteLine($"Area: {area}");
         }
 
-        public static void volume()
+        public static void Volume()
         {
             System.Console.WriteLine("Calculo de volume");
             System.Console.WriteLine("Qual a largura");
@@ -88,7 +105,7 @@ namespace Namespaceprogram
             System.Console.WriteLine($"O volume é {volume}");
         }
 
-        public static void maior()
+        public static void Maior()
         {
             System.Console.WriteLine("Calculo de maior numero");
             System.Console.WriteLine("Primeiro numero");
@@ -107,7 +124,7 @@ namespace Namespaceprogram
             }
         }
 
-        public static void bhaskara()
+        public static void Bhaskara()
         {
             Console.WriteLine("bhaskara");
             Console.Write("A = ");
@@ -131,7 +148,68 @@ namespace Namespaceprogram
             }
         }
 
-        
+        public static void VelocidadeMedia()
+        {
+            System.Console.WriteLine("Velocidade Media de uma viagem");
+            System.Console.WriteLine("Informe a distancia em KM");
+            double distancia = Double.Parse(Console.ReadLine());
+            System.Console.WriteLine("Informe o tempo estimado em Hora");
+            double tempo = Double.Parse(Console.ReadLine());
+            double media = ((distancia/ 1000 ) / (tempo / 3600 ));
+            System.Console.WriteLine($"velocidade media seria: {media}km");
+        }
+
+        public static void Imposto()
+        {
+            System.Console.WriteLine("Percentual de imposto a pagar");
+            System.Console.WriteLine("Quanto voce ganha??");
+            double salario = Double.Parse(Console.ReadLine());
+            /*
+            Base                     | Alíquota
+            ---------                | ------
+            Até 1.903,98             | Isento
+            De 1.903,99 até 2.826,65 | 7,5%
+            De 2.826,66 até 3.751,05 | 15%
+            De 3.751,06 até 4.664,68 | 22,5%
+            Acima de 4.664,68        | 27,5%
+            */
+            if (salario <= 1903.98)
+            {
+                System.Console.WriteLine("Voce é isento de imposto"); 
+            }
+            else if (salario >= 1903.99 && salario <= 2826.65)
+            {
+                System.Console.WriteLine("Alicota de 7,5%");
+            }
+            else if (salario >= 2826.66 && salario <= 3751.05 )
+            {
+                System.Console.WriteLine("Alicota de 15%");
+            }
+            else if (salario >= 3751.06 && salario <= 4664.68)
+            {
+                System.Console.WriteLine("Alicota de 22,5%");
+            }
+            else if (salario > 4664.68)
+            {
+                System.Console.WriteLine("Alicota de 27,5%");
+            }
+        }
+
+        public static void ImparPar()
+        {
+            System.Console.WriteLine("Impar ou Par");
+            System.Console.WriteLine("Informe um numero:");
+            int numero = Int32.Parse(Console.ReadLine());
+            if (numero % 2 == 0)
+            {
+                System.Console.WriteLine("Seu numeor é par");
+            }
+            else
+            {
+                System.Console.WriteLine("Seu numero é impar");
+            }
+        }
+
 
     }
 }
