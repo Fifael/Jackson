@@ -61,6 +61,14 @@ namespace Namespaceprogram
                         ImparPar();
                     break;
 
+                    case 9:
+                        DuasStrings();
+                    break;
+
+                    case 10:
+                        testes();
+                    break;
+
                     default:
                         Console.WriteLine("Opção não disponível");
                         break;
@@ -210,6 +218,41 @@ namespace Namespaceprogram
             }
         }
 
+        public static void DuasStrings()
+        {
+            System.Console.WriteLine("Comapara Strings");
+            System.Console.WriteLine("Infomre um palavra");
+            string PrimeiraString = (Console.ReadLine());
+            System.Console.WriteLine("Infomre outra palavra");
+            string SegundaString = (Console.ReadLine());
+
+            if (PrimeiraString == secondString)
+            {
+                Console.WriteLine("As strings são iguais.");
+            }
+            else
+            {
+                Console.WriteLine("As strings são diferentes.");
+            }
+            Console.ReadLine();
+        }
+
+        public static void testes()
+        {
+            System.Console.WriteLine("Transformando Strign em Inteiro: ");
+            System.Console.WriteLine("Informe uma String");
+            string Aleo = (Console.ReadLine());
+            int Numero;
+            try
+            {
+                Numero = int.Parse(Aleo);
+                Console.WriteLine($"O número convertido é: {Numero} ");
+            }
+            catch (FormatException) // Tratar o erro padrao
+            {
+                Console.WriteLine("A string de entrada não está no formato correto.");
+            }
+        }
 
     }
 }
