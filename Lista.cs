@@ -76,7 +76,6 @@ namespace Namespaceprogram
             } while (menu != 0);
         }
 
-
         public static void Media()
         {
             System.Console.WriteLine("Qual a primeira nota");
